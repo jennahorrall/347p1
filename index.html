@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JMU Cross Country and Track</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <p>hello!!!!</p>
-    
+
+    <div id="main-img">
+        <img id="campus"src="campus.jpg" alt="JMU Campus"> 
+        <div id="main-txt">
+            <h1>Welcome to JMU Club Cross Country and Track!</h1>
+            <h2>James Madison Univeristy</h2>
+        </div>
+        <div id="menu">
+            <p id='menu-text'>Menu</p>
+            <div id="menu-symbol-container" onclick="changeToX(this)">
+                <div id="line-1"></div>
+                <div id="line-2"></div>
+                <div id="line-3"></div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
+
+<script>
+    function changeToX(element) {
+      element.classList.toggle("changeX");
+    }
+</script>
 </html>

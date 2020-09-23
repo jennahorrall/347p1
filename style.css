@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+#campus {
+    width: 1425px;
+    height: 100vh;
+    opacity: .7;
+}
+
+#main-img {
+    display: inline-block;
+    position: relative;
+}
+
+#main-txt {
+    position: absolute;
+    border-radius: 10px;
+    opacity: .9;
+    font-family: 'Alegreya', serif;
+    background-color: rgb(235, 135, 235);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    bottom: 45%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+
+#menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 3%;
+    left: 3%;
+    width: 80px;
+    height: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+#menu-text {
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#menu-symbol-container {
+    cursor: pointer;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+#line-1, #line-2, #line-3 {
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+  }
+
+  
