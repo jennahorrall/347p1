@@ -6,32 +6,46 @@
     <title>JMU Cross Country and Track</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div id="main-img">
-        <img id="campus"src="campus.jpg" alt="JMU Campus"> 
+        <img id="campus"src="pics/campus.jpg" alt="James Madison University Campus">
         <div id="main-txt">
             <h1>Welcome to JMU Club Cross Country and Track!</h1>
-            <h2>James Madison Univeristy</h2>
+            <h2>James Madison University</h2>
         </div>
-        <div id="menu">
-            <p id='menu-text'>Menu</p>
-            <div id="menu-symbol-container" onclick="changeToX(this)">
+
+        <div id="menu" onclick="displayMenu()">
+            <div id='menu-text'>Menu</div>
+            <div id="menu-symbol-container">
                 <div id="line-1"></div>
                 <div id="line-2"></div>
                 <div id="line-3"></div>
             </div>
         </div>
-    </div>
 
-
+        <div id="menu-bar">
+            <a href="javascript:void(0)" class="close-menu-button" onclick="closeMenu()">&times;</a>
+            <div id="links">
+                <a href="#" onclick="closeMenu()"class="menu-bar-item">Home</a>
+                <a href="#" class="menu-bar-item">Who We Are</a>
+                <a href="#" class="menu-bar-item">Meet Exec!</a>
+                <a href="#" class="menu-bar-item">COVID-19 Updates</a>
+                <a href="#" class="menu-bar-item">Practices</a>
+                <a href="#" class="menu-bar-item">Merch and Dues</a>
+                <a href="#" class="menu-bar-item">FAQs</a>
+            </div>
+        </div>
 </body>
 
 
 <script>
-    function changeToX(element) {
-      element.classList.toggle("changeX");
+    function displayMenu() {
+        document.getElementById("menu-bar").style.width = "300px";
+        document.getElementById("menu-bar").style.borderRight = "1px solid black";
+    }
+    function closeMenu() {
+        document.getElementById("menu-bar").style.width = "0px";
     }
 </script>
 </html>
