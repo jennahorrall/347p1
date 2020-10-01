@@ -1,6 +1,5 @@
 function displayMenu() {
     document.getElementById("menu-bar").style.width = "300px";
-    document.getElementById("menu-bar").style.borderRight = "1px solid black";
 }
 function closeMenu() {
     document.getElementById("menu-bar").style.width = "0px";
