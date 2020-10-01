@@ -2,13 +2,21 @@ body {
     margin: 0;
 }
 
+#img-container {
+    height: 100vh;
+    position: relative;
+}
+
+
 #campus {
-    min-width: 100%;
-    min-height: 100%;
-    opacity: .7;
+    width: 100%;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
 }
 
 
@@ -17,7 +25,7 @@ body {
     border-radius: 10px;
     opacity: .9;
     font-family: 'Alegreya', serif;
-    background-color: rgb(235, 135, 235);
+    background-color: whitesmoke;
     padding: 30px;
     top: 50%;
     left: 50%;
@@ -26,11 +34,11 @@ body {
 }
 
 #menu {
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(167, 167, 57, 0.493);
+    background-color: rgb(93, 60, 185);
     flex-direction: row;
     cursor: pointer;
     top: 3%;
@@ -38,7 +46,7 @@ body {
     width: 75px;
     height: 35px;
     padding: 3px;
-    border: solid 1px black;
+    border: solid 2px black;
     border-radius: 2px;
     margin: 0;
 }
@@ -53,7 +61,7 @@ body {
 #line-1, #line-2, #line-3 {
     width: 17px;
     height: 2px;
-    background-color: #333;
+    background-color: black;
     margin: 3px 0;
 }
 
@@ -78,7 +86,7 @@ body {
     overflow: hidden;
 }
 
-.close-menu-button {
+#close-menu-button {
     font-size: 25px;
     position: absolute;
     display: block;
@@ -88,7 +96,7 @@ body {
     top: 3%;
 }
 
-.close-menu-button:hover {
+#close-menu-button:hover {
     color: rgba(180, 52, 52, 0.603);
 }
 
@@ -116,6 +124,24 @@ body {
 .menu-bar-item:hover {
     background-color: rgba(62, 91, 124, 0.603);
 }
+
+
+#main-col {
+    position: absolute;
+    padding: 50px;
+    width: 800px;
+    min-height: 800px;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -400px;
+    box-sizing: border-box;
+    background-color: rgb(241, 230, 165);
+    border-radius: 25px;
+}
+
+
 
 
   

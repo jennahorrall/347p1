@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script> 
 </head>
 <body>
         <img id="campus"src="pics/campus.jpg" alt="James Madison University Campus">
@@ -15,7 +16,7 @@
             <h2>James Madison University</h2>
         </div>
 
-        <div id="menu" onclick="displayMenu()">
+        <div id="menu">
             <div id='menu-text'>Menu</div>
             <div id="menu-symbol-container">
                 <div id="line-1"></div>
@@ -25,27 +26,16 @@
         </div>
 
         <div id="menu-bar">
-            <a href="javascript:void(0)" class="close-menu-button" onclick="closeMenu()">&times;</a>
+            <a href="javascript:void(0)" id="close-menu-button">&times;</a>
             <div id="links">
-                <a href="#" onclick="closeMenu()"class="menu-bar-item">Home</a>
-                <a href="who-we-are.html" class="menu-bar-item">Who We Are</a>
-                <a href="#" class="menu-bar-item">Meet Exec!</a>
-                <a href="#" class="menu-bar-item">COVID-19 Updates</a>
-                <a href="#" class="menu-bar-item">Practices</a>
-                <a href="#" class="menu-bar-item">Merch and Dues</a>
-                <a href="#" class="menu-bar-item">FAQs</a>
+                <a id="home" href="#"class="menu-bar-item">Home</a>
+                <a id="who-we-are" href="who-we-are.html" class="menu-bar-item">Who We Are</a>
+                <a id="meet-exec" href="meet-exec.html" class="menu-bar-item">Meet Exec!</a>
+                <a id="covid-updates" href="covid-updates.html" class="menu-bar-item">COVID-19 Updates</a>
+                <a id="practices" href="practices.html" class="menu-bar-item">Practices</a>
+                <a id="merch-and-dues" href="merch-and-dues.html" class="menu-bar-item">Merch and Dues</a>
+                <a id="questions" href="questions.html" class="menu-bar-item">FAQs</a>
             </div>
         </div>
 </body>
-
-
-<script>
-    function displayMenu() {
-        document.getElementById("menu-bar").style.width = "300px";
-        document.getElementById("menu-bar").style.borderRight = "1px solid black";
-    }
-    function closeMenu() {
-        document.getElementById("menu-bar").style.width = "0px";
-    }
-</script>
 </html>
