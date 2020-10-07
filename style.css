@@ -181,3 +181,23 @@ body {
 #home {
     border-top: 1px solid black;
 }
+
+#flex-container-exec-imgs {
+    display: grid;
+    /* align-items: center;
+    justify-content: center; */
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    row-gap: 70px;
+
+}
+
+.exec-pics-caption {
+    background-color: purple;
+    align-self: start;
+    justify-self: start;
+}
+
+.exec-pics {
+    place-self: center;
+}
