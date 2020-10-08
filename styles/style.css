@@ -148,56 +148,7 @@ body {
     border-radius: 25px;
 }
 
-#group-pic-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#group-pic {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-#who-we-are-heading {
-    padding: 50px;
-}
-
-.who-we-are-text {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-}
-
-#bottom-text {
-    padding-bottom: 50px;
-}
-
 #home {
     border-top: 1px solid black;
 }
 
-#flex-container-exec-imgs {
-    display: grid;
-    /* align-items: center;
-    justify-content: center; */
-    grid-template-columns: auto auto;
-    column-gap: 40px;
-    row-gap: 70px;
-
-}
-
-.exec-pics-caption {
-    background-color: purple;
-    align-self: start;
-    justify-self: start;
-}
-
-.exec-pics {
-    place-self: center;
-}

@@ -1,0 +1,35 @@
+#group-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#group-pic {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#who-we-are-heading {
+    padding: 50px;
+}
+
+.who-we-are-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+#bottom-text {
+    padding-bottom: 50px;
+}
+
+#home {
+    border-top: 1px solid black;
+}
+
+

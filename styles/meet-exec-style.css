@@ -1,0 +1,29 @@
+#flex-container-exec-imgs {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+
+.exec-pics-caption {
+    align-self: start;
+    justify-self: start;
+    padding-left: 60px;
+}
+
+.exec-pics {
+    place-self: center;
+}
+
+#meet-exec-text {
+    padding: 60px;
+}
+
+#secretary {
+    width: 70%;
+    height: 100%;
+}
+
+#main-col {
+    padding-bottom: 40px;
+}
