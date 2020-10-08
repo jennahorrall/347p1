@@ -29,7 +29,7 @@ body {
 #main-txt {
     border-radius: 10px;
     opacity: .95;
-    font-family: 'Alegreya', serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #E8D3C5;
     color: #3a4f5c;
     padding: 30px;
@@ -58,6 +58,7 @@ body {
     margin: 0;
     padding-left: 1px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     color: black;
     font-size: 14px;
 }
@@ -123,6 +124,7 @@ body {
     flex-grow: 1;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .menu-bar-item:hover {
@@ -142,7 +144,8 @@ body {
     min-height: 800px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    font-size: 20px;
     z-index: 1;
     background-color: rgb(241, 230, 165);
     border-radius: 25px;

@@ -15,8 +15,9 @@
     place-self: center;
 }
 
-#meet-exec-text {
+#meet-exec-heading {
     padding: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #secretary {
@@ -26,4 +27,9 @@
 
 #main-col {
     padding-bottom: 40px;
+}
+
+.position-txt {
+    font-size: 20px;
+    font-weight: bold;
 }
