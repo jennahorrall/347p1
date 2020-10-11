@@ -28,8 +28,8 @@ function covidUpdatesListener() {
     }
 }
 
-function practicesListener() {
-    if (document.getElementById("practices").getAttribute("href") == "#") {
+function meetingsListener() {
+    if (document.getElementById("meetings").getAttribute("href") == "#") {
         closeMenu();
     }
 }
@@ -53,6 +53,6 @@ document.getElementById("home").addEventListener("click", homeListener);
 document.getElementById("who-we-are").addEventListener("click", whoWeAreListener);
 document.getElementById("meet-exec").addEventListener("click", meetExecListener);
 document.getElementById("covid-updates").addEventListener("click", covidUpdatesListener);
-document.getElementById("practices").addEventListener("click", practicesListener);
+document.getElementById("meetings").addEventListener("click", meetingsListener);
 document.getElementById("merch-and-dues").addEventListener("click", merchAndDuesListener);
 document.getElementById("questions").addEventListener("click", questionsListener);

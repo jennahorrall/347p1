@@ -15,17 +15,12 @@
     place-self: center;
 }
 
-#meet-exec-heading {
-    padding: 60px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 #secretary {
     width: 70%;
     height: 100%;
 }
 
-#main-col {
+.main-col {
     padding-bottom: 40px;
 }
 
