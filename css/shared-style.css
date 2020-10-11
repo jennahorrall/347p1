@@ -15,26 +15,9 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.75;
+    opacity: 0.72;
 }
 
-#home-page-heading-flex-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#home-page-heading {
-    border-radius: 10px;
-    opacity: .95;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #E8D3C5;
-    color: #3a4f5c;
-    padding: 30px;
-    text-align: center;
-}
 
 #menu {
     position: fixed;

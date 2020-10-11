@@ -40,6 +40,12 @@ function merchAndDuesListener() {
     }
 }
 
+function contactListener() {
+    if (document.getElementById("contact").getAttribute("href") == "#") {
+        closeMenu();
+    }
+}
+
 function questionsListener() {
     if (document.getElementById("questions").getAttribute("href") == "#") {
         closeMenu();
@@ -55,4 +61,5 @@ document.getElementById("meet-exec").addEventListener("click", meetExecListener)
 document.getElementById("covid-updates").addEventListener("click", covidUpdatesListener);
 document.getElementById("meetings").addEventListener("click", meetingsListener);
 document.getElementById("merch-and-dues").addEventListener("click", merchAndDuesListener);
+document.getElementById("contact").addEventListener("click", contactListener);
 document.getElementById("questions").addEventListener("click", questionsListener);
