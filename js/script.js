@@ -1,8 +1,10 @@
 function displayMenu() {
     document.getElementById("menu-bar").style.width = "300px";
+    document.getElementById("menu").style.display = "none";
 }
 function closeMenu() {
     document.getElementById("menu-bar").style.width = "0px";
+    document.getElementById("menu").style.display = "flex";
 }
 
 function homeListener() {

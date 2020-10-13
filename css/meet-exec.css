@@ -15,12 +15,15 @@
     place-self: center;
 }
 
-#secretary {
-    width: 70%;
-    height: 100%;
-}
-
 .position-txt {
     font-size: 20px;
     font-weight: bold;
+}
+
+.meet-exec-text {
+    padding-bottom: 10px;
+}
+
+#secretary {
+    width: 80%;
 }
