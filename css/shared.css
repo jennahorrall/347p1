@@ -59,6 +59,7 @@ body {
     transition: 0.5s;
     position: fixed;
     display: flex;
+    z-index: 1;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: space-between;
@@ -288,4 +289,12 @@ body {
     #menu-text {
         font-size: 16px;
     }
+
+    #footer {
+        display: grid;
+        grid-template-columns: 20px 100px;
+        justify-items: left;
+
+    }
+    
 }
