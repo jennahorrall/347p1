@@ -264,6 +264,7 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
     .page-heading {
         padding: 30px;
         font-size: 22px;
@@ -283,6 +284,7 @@ body {
         padding-bottom: 20px;
         font-size: 16px;
     }
+
     .menu-bar-item {
         font-size: 16px;
     }
@@ -291,10 +293,22 @@ body {
     }
 
     #footer {
-        display: grid;
-        grid-template-columns: 20px 100px;
-        justify-items: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
+    #text-container {
+        margin: 0;
+    }
+
+    .fa {
+        margin: 0;
     }
     
 }
