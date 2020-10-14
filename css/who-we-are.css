@@ -1,24 +1,10 @@
-/* .who-we-are-text {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-}
- */
-#bottom-text {
-    padding-bottom: 0px;
-}
-
-/* #home {
-    border-top: 1px solid black;
-}
- */
 #contact-page-link {
     text-decoration: none;
     color: purple;
 }
 
 #contact-page-link:hover {
-    text-decoration: none; 
+    text-decoration: none;
     color: rgb(169, 68, 182)
 }
 
@@ -31,4 +17,3 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-

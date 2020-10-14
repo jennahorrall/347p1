@@ -4,7 +4,6 @@
 }
 
 #groupme-link:hover {
-    text-decoration: none; 
     color: rgb(169, 68, 182)
 }
 
@@ -27,7 +26,7 @@ form {
     justify-self: center;
     height: 30px;
     background-color: rgb(161, 98, 161);
-    border-style:none;
+    border-style: none;
     border-radius: 10px;
     font-family: 'Lora', serif;
     cursor: pointer;
@@ -43,10 +42,7 @@ form {
     font-family: 'Lora', serif;
 }
 
-
 @media only screen and (max-width: 500px) {
-
-
     #grid-container {
         display: grid;
         grid-template-columns: 50px 200px;
@@ -54,57 +50,44 @@ form {
         padding-right: 30px;
         row-gap: 20px;
     }
-
-
     #name-label {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
     }
-
     #name-input {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
     }
-
     #email-label {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
     }
-
     #email-input {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
     }
-
     #mailing-list-label {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 5;
     }
-
     #message-label {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 6;
     }
-
     #message {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 7;
     }
-
     #submit {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 8;
     }
-
-
-
-
 }
