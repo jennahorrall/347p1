@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JMU Cross Country and Track</title>
+    <title>JMU Club XC and Track</title>
     <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='shortcut icon' href='images/favicon.ico'>
     <script src="js/script.js" defer></script>
 </head>
 
@@ -24,19 +26,59 @@
                 <h1 class="page-heading">Contact Us</h1>
                 <p class="body-text">
                     We update the team regularly about upcoming virtual events and team meetings through
-                    our GroupMe channel. Follow this link to join the GroupMe chat!
+                    our GroupMe channel. Follow this 
+                    <a id="groupme-link" anchor="_blank" href="https://web.groupme.com/join_group/62028427/1020JN4n">link</a> 
+                    to join the GroupMe chat!
                 </p>
-                <p class="body-text">
+                <!-- <p class="body-text">
                     You can also find us on social media:
                 </p>
                 <div class="body-text">
                     <a href="https://www.instagram.com/jmuclubxc/?hl=en">Instagram</a>
                     <a href="https://www.facebook.com/JmuClubCrossCountryTrack/">Facebook</a>
-                </div>
+                </div> -->
                 <p class="body-text">
                     Fill out this form if you wish to email us directly. We will get back to you within a few days!
                 </p>
-                <!-- insert form from lecture -->
+
+
+                <form id="grid-container">
+
+                    <label for="name-input" id="name-label">Name</label>
+                    <input type="text" id="name-input">
+
+                    <label for="email-input" id="email-label">Dukes Email</label>
+                    <input type="email" id="email-input">
+
+                    <label id="mailing-list-label">Add to email list?</label>
+
+                    <div id="mailing-list-buttons">
+
+                        <label for="mailing-list-input-yes">Yes</label>
+                        <input type="radio" name="mailing-list" id="mailing-list-input-yes" value="Yes">
+
+                        <label for="mailing-list-input-no">No</label>
+                        <input type="radio" name="mailing-list" id="mailing-list-input-no" value="No">
+                    </div>
+
+                    <label id="message-label" for="message">Message</label>
+                    <textarea id=message></textarea>
+
+                    <button id="submit">Submit</button>
+                    <!-- <input type="submit" id="submit-button" value="Submit"> -->
+                  
+                </form>
+                <div id="footer">
+                    <div><a target="_blank" href="https://www.facebook.com/JmuClubCrossCountryTrack/" class="fa fa-facebook"></a></div>
+                    <div><a target="_blank" href="https://www.instagram.com/jmuclubxc/?hl=en" class="fa fa-instagram"></a></div>
+                    <div><a target="_blank" href="https://www.youtube.com/channel/UCFKh67R03LIDKVlq-PRplZg" class="fa fa-youtube"></a></div>
+                    <div id="text-container">
+                        <p class="footer-txt">Club Cross Country and Track</p>
+                        <p class="footer-txt">James Madison University</p>
+                        <p class="footer-txt">jmuclubxctrack@gmail.com</p>
+                        <p class="footer-txt">804-517-0010</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

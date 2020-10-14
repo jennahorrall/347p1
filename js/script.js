@@ -1,6 +1,14 @@
 function displayMenu() {
-    document.getElementById("menu-bar").style.width = "300px";
-    document.getElementById("menu").style.display = "none";
+
+
+    if (window.outerWidth <= 500) {
+        document.getElementById("menu-bar").style.width = "100%";
+        document.getElementById("menu").style.display = "none";
+    } else {
+        document.getElementById("menu-bar").style.width = "300px";
+        document.getElementById("menu").style.display = "none";
+    }
+    
 }
 function closeMenu() {
     document.getElementById("menu-bar").style.width = "0px";

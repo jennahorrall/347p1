@@ -1,5 +1,110 @@
-/* .contact-body {
+#groupme-link {
+    text-decoration: none;
+    color: purple;
+}
+
+#groupme-link:hover {
+    text-decoration: none; 
+    color: rgb(169, 68, 182)
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
     padding-left: 60px;
     padding-right: 60px;
-    padding-bottom: 30px;
-} */
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+form {
+    padding-top: 30px;
+}
+
+#submit {
+    grid-column: 2;
+    width: 100px;
+    justify-self: center;
+    height: 30px;
+    background-color: rgb(161, 98, 161);
+    border-style:none;
+    border-radius: 10px;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    height: 100px;
+    font-family: 'Lora', serif;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: 50px 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        row-gap: 20px;
+    }
+
+
+    #name-label {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+    }
+
+    #name-input {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+    }
+
+    #email-label {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
+
+    #email-input {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+    }
+
+    #mailing-list-label {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+    }
+
+    #message-label {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+    }
+
+    #message {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+    }
+
+    #submit {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 8;
+    }
+
+
+
+
+}

@@ -27,3 +27,62 @@
 #secretary {
     width: 80%;
 }
+
+@media only screen and (max-width: 500px) {
+    .main-col {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    #flex-container-exec-imgs {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 100px;
+    }
+
+    #pres {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #vp {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #treasurer {
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    #secretary {
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    #fund-chair {
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+
+    #social-chair {
+        grid-row-start: 11;
+        grid-row-end: 12;
+    }
+
+    #race-director {
+        grid-row-start: 13;
+        grid-row-end: 14;
+    }
+
+    .exec-pics {
+        place-self: center;
+        width: 60%;
+    }
+
+    .body-text {
+        border-bottom: 1px black solid;
+        padding-bottom: 50px;
+    }
+  }
