@@ -54,7 +54,7 @@
     #flex-container-exec-imgs {
         display: grid;
         grid-template-columns: auto;
-        row-gap: 100px;
+        row-gap: 50px;
     }
     #pres {
         grid-row-start: 1;
