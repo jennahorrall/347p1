@@ -1,26 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P1 Report</title>
+    <link rel="stylesheet" href="css/report.css">
 </head>
+
 <body>
-<h1>P1 Report</h1>
+    <h1>P1 Report</h1>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+
+        <li>You will create a website for a client of your choosing. Your client could be a family member, a business, a
+            student group, a friend, an online community, and so on. The only restriction is that the client cannot be
+            just you.</li>
+        <p class="spec-description">My client is the JMU club cross country and track student organization.</p>
+
+        <li>Your content must be original and not lifted from other websites. Third-party images are acceptable provided
+            you adhere to their license.</li>
+        <p class="spec-description">Content was given to me by the client either directly or taken from their current
+            webiste with permission.</p>
+
+        <li>Your site must contain at least five separate pages, each having a meaningful purpose. One of the files
+            should be named index.html, which Apache loads by default.</li>
+        <p class="spec-description">The site has eight pages: home, who we are, meet exec, covid updates, team meetings,
+            merch and dues, contact us, and faqs.
+            The index.html page loads automatically.
+        </p>
+
+        <li>Your site must include some sort of header.</li>
+        <p class="spec-description">Each page has an image and title header except the meet exec page which just has the
+            title header.</p>
+
+        <li>Your site must include some sort of navigation links.</li>
+        <p class="spec-description">The side menu opens up and allows the user to navigate to each page.</p>
+
+        <li>Your site must support distinct layouts for large and small screens using media queries. For instance,
+            multicolumn layouts on large screens should be reduced to single column layouts on small screens.</li>
+        <p class="spec-description">My site supports large and small layouts. When the screen size reduces, the
+            background
+            image disappears and it becomes a single column with all of the same info.
+        </p>
+
+        <li>Your site must maintain a coherent style across its pages. Repeated style rules must be placed in a shared
+            stylesheet. Style rules not shared between pages must be placed in separate stylesheets.</li>
+        <p class="spec-description">My site has a consistent monocolumn layout on every page (except home).
+            There is an image header and footer on each page.
+        </p>
+
+        <li>Your site must include images, and their alt attributes must adequately describe the image content to users
+            of screen readers, user with images disabled, and webcrawlers.</li>
+        <p class="spec-description">Each image has an alt tag describing what's on it.</p>
+
+        <li>Each page must declare its favicon.</li>
+        <p class="spec-description">Each page has a runner emoji for it's favicon.</p>
+
+        <li>Your site’s non-HTML resources must be organized. Images must be placed in a directory named images. CSS
+            files must be placed in a directory named css. JavaScript must be placed in a directory named js.</li>
+        <p class="spec-description">All non-html files are organized in the above folders.</p>
+
+        <li>Your site must not be built using any libraries or frameworks. Do not use Bootstrap, jQuery, React, Angular,
+            Vue, or any other third-party tools. You may, however, reimplement the ideas you see in these third-party
+            tools.</li>
+        <p class="spec-description">My site does not include any third-party tools.</p>
+
+        <li>Each page and stylesheet of your site must validate without any warnings or errors using the W3C’s Nu
+            Validator.</li>
+        <p class="spec-description">Every page passed the Nu validator.</p>
+
+        <li>The content should be neatly aligned. The axes of alignment should be clearly visible. Favor left- and
+            right-alignment over centering—as centering does not produce a strong axis of alignment.</li>
+        <p class="spec-description">Most of the content is left-aligned except for the home page. </p>
+
+        <li>Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and
+            paragraph copy in a serif font.</li>
+        <p class="spec-description">All headings are in Montserrat (sans-serif) and the body text is in Lora (serif).
+        </p>
+
+        <li>Your site must include at least one form (or informal collection of input elements). The form might submit
+            data to a server or invoke some client-side JavaScript function that alters the page. The action is not
+            specified.</li>
+        <p class="spec-description">There is a form on my contact page where the user can enter information to send
+            to the cross country email. They can also opt to be added to the email list. This isn't hooked up on the
+            backend.
+        </p>
+
+        <li>Your site must include links to external sites.</li>
+        <p class="spec-description">I have a few links to external sites, most of which are social media
+            sites. The icons on the footer all link to the teams social media accounts.
+        </p>
+
+        <li>Your source code must be readable, using conventional and consistent formatting and meaningful names for
+            classes and IDs.</li>
+        <p class="spec-description">The id's and classes names are consistent and readable.
+        </p>
+
+        <li>Your site must include at least one animation, powered either by CSS or JavaScript.</li>
+        <p class="spec-description">The side bar is animated as well as the submit button on the contact page.</p>
+
+        <li>Your site must be stored in a Git repository that you have shared with your instructor. On GitHub, GitLab,
+            and Bitbucket, share with the user twodee.</li>
+        <p class="spec-description">https://github.com/jennahorrall/347p1.git</p>
+
+        <li>The names of your files must be entirely lowercase and contain only alphanumeric characters.</li>
+        <p class="spec-description">All files are lowercase and alphanumeric.</p>
+
+        <li>Your site must have its own domain name.</li>
+        <p class="spec-description">domain name: project1.jennadev.me</p>
+
+        <li>Your site must be served out over HTTPS on port 443. You are encouraged to use Let’s Encrypt to obtain a
+            free certificate.</li>
+        <p class="spec-description">I used Let's Encrypt to get a free certificate.</p>
+
+        <li>Users who access your site over HTTP on port 80 must be automatically redirected to port 443.</li>
+        <p class="spec-description">The site is redirected to port 443.</p>
+
+        <li>Your Git repository should show a steady flow of commits over the course of the project. Committing and
+            pushing should happen steadily, after each work session, and not just right before the due date.</li>
+        <p class="spec-description">Thoughout the project I've had about 20 commits starting on Sept. 21 up
+            until the due date (today).
+        </p>
     </ol>
-    
+
 </body>
+
 </html>

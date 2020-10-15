@@ -28,11 +28,28 @@
     width: 80%;
 }
 
+/* Query for mid-side screens */
+
+@media only screen and (max-width: 1050px) {
+    #exec-heading {
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-bottom: 50px;
+    }
+}
+
+/* Change grid to single column layout when screen size decreases */
+
 @media only screen and (max-width: 500px) {
     .main-col {
         width: 100%;
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+    #exec-heading {
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-bottom: 50px;
     }
     #flex-container-exec-imgs {
         display: grid;

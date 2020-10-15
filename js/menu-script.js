@@ -78,7 +78,7 @@ function questionsListener() {
     }
 }
 
-//add listeners
+// add listeners
 menuButton.addEventListener("click", displayMenu);
 closeButtom.addEventListener("click", closeMenu);
 home.addEventListener("click", homeListener);
